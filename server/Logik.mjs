@@ -38,7 +38,7 @@ let result = {
 
 function decreaseCounter() {
     counter--
-
+}
 
 
 function resetCounter() {
