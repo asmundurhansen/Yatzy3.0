@@ -2,7 +2,7 @@ import { dices, upperSectionScore,
     sumScore, bonusScore, 
     onePairScore, twoPairScore, threeOfAKindScore, fourOfAKindScore, fullHouseScore, smallStraightScore, largeStraightScore, chanceScore, yatzyScore, decreaseCounter, counter, 
     totalScore, resetCounter, opdaterFelt
-} from "./Logik.js"
+} from "../server/Logik.js"
 let slåKnap = document.querySelector('#terningerKnap')
 let terninger = document.querySelectorAll('.terning')
 let checkbox = document.querySelectorAll('.cb')
